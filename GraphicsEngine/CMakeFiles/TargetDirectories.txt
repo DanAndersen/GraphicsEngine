@@ -1,0 +1,7 @@
+D:/Files/Projects/Glitter/Build/CMakeFiles/Glitter.dir
+D:/Files/Projects/Glitter/Build/Glitter/Vendor/glfw/CMakeFiles/uninstall.dir
+D:/Files/Projects/Glitter/Build/Glitter/Vendor/assimp/code/CMakeFiles/assimp.dir
+D:/Files/Projects/Glitter/Build/Glitter/Vendor/assimp/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/Files/Projects/Glitter/Build/CMakeFiles/ZERO_CHECK.dir
+D:/Files/Projects/Glitter/Build/Glitter/Vendor/assimp/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/Files/Projects/Glitter/Build/Glitter/Vendor/glfw/src/CMakeFiles/glfw.dir

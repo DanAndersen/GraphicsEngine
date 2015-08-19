@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/Files/Projects/Glitter/Glitter/Vendor/assimp/contrib/zlib/CMakeLists.txt
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckTypeSize.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFileCXX.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckFunctionExists.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckCSourceCompiles.cmake
+D:/Files/Projects/Glitter/Glitter/Vendor/assimp/contrib/zlib/zlib.pc.cmakein
+D:/Files/Projects/Glitter/Glitter/Vendor/assimp/contrib/zlib/zconf.h.cmakein

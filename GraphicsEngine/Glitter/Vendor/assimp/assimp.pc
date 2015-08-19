@@ -1,0 +1,11 @@
+prefix=C:/Program Files/Glitter
+exec_prefix=C:/Program Files/Glitter/bin
+libdir=C:/Program Files/Glitter/lib
+includedir=C:/Program Files/Glitter/include/assimp
+
+Name: Glitter
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 3.1.1
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}

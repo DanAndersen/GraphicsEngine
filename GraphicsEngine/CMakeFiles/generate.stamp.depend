@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+D:/Files/Projects/Glitter/CMakeLists.txt
+D:/Files/Projects/Glitter/Build/CMakeFiles/3.3.1/CMakeSystem.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Files/Projects/Glitter/Build/CMakeFiles/3.3.1/CMakeCCompiler.cmake
+D:/Files/Projects/Glitter/Build/CMakeFiles/3.3.1/CMakeCXXCompiler.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeSystemSpecificInformation.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeGenericSystem.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/WindowsPaths.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCInformation.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-C.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+D:/Files/Projects/Glitter/Build/CMakeFiles/3.3.1/CMakeRCCompiler.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeRCInformation.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCXXInformation.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Compiler/MSVC-CXX.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC-CXX.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/Platform/Windows-MSVC.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeCommonLanguageInclude.cmake

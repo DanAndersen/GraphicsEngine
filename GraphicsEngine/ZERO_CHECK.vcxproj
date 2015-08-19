@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5A3FEE60-6F62-46FF-83B0-CA76E8387E30}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Files\Projects\Glitter\Glitter\Headers;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include;D:\Files\Projects\Glitter\Glitter\Vendor\glad\include;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\include;D:\Files\Projects\Glitter\Glitter\Vendor\glm;D:\Files\Projects\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Files\Projects\Glitter\Glitter\Headers;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include;D:\Files\Projects\Glitter\Glitter\Vendor\glad\include;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\include;D:\Files\Projects\Glitter\Glitter\Vendor\glm;D:\Files\Projects\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Files\Projects\Glitter\Glitter\Headers;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include;D:\Files\Projects\Glitter\Glitter\Vendor\glad\include;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\include;D:\Files\Projects\Glitter\Glitter\Vendor\glm;D:\Files\Projects\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Files\Projects\Glitter\Glitter\Headers;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include;D:\Files\Projects\Glitter\Glitter\Vendor\glad\include;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\include;D:\Files\Projects\Glitter\Glitter\Vendor\glm;D:\Files\Projects\Glitter\Glitter\Vendor\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Files\Projects\Glitter\Build\CMakeFiles\bc11524fbbbb9961687a37fe4df1b49d\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Files/Projects/Glitter -BD:/Files/Projects/Glitter/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Files/Projects/Glitter/Build/CMakeFiles/bc11524fbbbb9961687a37fe4df1b49d/generate.stamp.rule;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;D:\Files\Projects\Glitter\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config-version.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindDirectX.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindPkgMacros.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindZLIB.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\PrecompiledHeader.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zconf.h.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlib.pc.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\revision.h.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\cmake_uninstall.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3Config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw_config.h.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Projects\Glitter\Build\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\src\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\contrib\zlib\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Files/Projects/Glitter -BD:/Files/Projects/Glitter/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Files/Projects/Glitter/Build/CMakeFiles/bc11524fbbbb9961687a37fe4df1b49d/generate.stamp.rule;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;D:\Files\Projects\Glitter\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config-version.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindDirectX.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindPkgMacros.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindZLIB.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\PrecompiledHeader.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zconf.h.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlib.pc.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\revision.h.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\cmake_uninstall.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3Config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw_config.h.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Projects\Glitter\Build\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\src\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\contrib\zlib\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Files/Projects/Glitter -BD:/Files/Projects/Glitter/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Files/Projects/Glitter/Build/CMakeFiles/bc11524fbbbb9961687a37fe4df1b49d/generate.stamp.rule;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;D:\Files\Projects\Glitter\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config-version.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindDirectX.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindPkgMacros.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindZLIB.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\PrecompiledHeader.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zconf.h.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlib.pc.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\revision.h.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\cmake_uninstall.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3Config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw_config.h.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Files\Projects\Glitter\Build\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\src\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\contrib\zlib\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Files/Projects/Glitter -BD:/Files/Projects/Glitter/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Files/Projects/Glitter/Build/CMakeFiles/bc11524fbbbb9961687a37fe4df1b49d/generate.stamp.rule;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeCXXCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeRCCompiler.cmake;D:\Files\Projects\Glitter\Build\CMakeFiles\3.3.1\CMakeSystem.cmake;D:\Files\Projects\Glitter\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config-version.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp-config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\assimp.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindDirectX.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindPkgMacros.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\FindZLIB.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\cmake-modules\PrecompiledHeader.cmake;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zconf.h.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\zlib\zlib.pc.cmakein;D:\Files\Projects\Glitter\Glitter\Vendor\assimp\revision.h.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\cmake_uninstall.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\CMakeLists.txt;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3.pc.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw3Config.cmake.in;D:\Files\Projects\Glitter\Glitter\Vendor\glfw\src\glfw_config.h.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakePackageConfigHelpers.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindOpenGL.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\FindThreads.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.3\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Files\Projects\Glitter\Build\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\glfw\src\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\contrib\zlib\CMakeFiles\generate.stamp;D:\Files\Projects\Glitter\Build\Glitter\Vendor\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

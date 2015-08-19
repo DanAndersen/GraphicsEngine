@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+D:/Files/Projects/Glitter/Glitter/Vendor/glfw/CMakeLists.txt
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindOpenGL.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindThreads.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFiles.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckLibraryExists.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckSymbolExists.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakePackageConfigHelpers.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/WriteBasicConfigVersionFile.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake
+D:/Files/Projects/Glitter/Glitter/Vendor/glfw/src/glfw3Config.cmake.in
+c:/Program Files (x86)/CMake/share/cmake-3.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Files/Projects/Glitter/Glitter/Vendor/glfw/src/glfw_config.h.in
+D:/Files/Projects/Glitter/Glitter/Vendor/glfw/src/glfw3.pc.in
+D:/Files/Projects/Glitter/Glitter/Vendor/glfw/cmake_uninstall.cmake.in

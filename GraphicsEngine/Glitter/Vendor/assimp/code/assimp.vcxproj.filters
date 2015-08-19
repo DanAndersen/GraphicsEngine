@@ -1,0 +1,1413 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRMeshLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\math\common_factor_rt.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\foreach.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\format.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\scoped_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\scoped_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\shared_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\shared_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\make_shared.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\BoostWorkaround\boost\tuple\tuple.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Files\Projects\Glitter\Glitter\Vendor\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{644A9E67-2536-4FE9-966B-4D68111B620B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5FAE750A-A16D-43EE-813E-69844C17745B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{C5B3298B-BA3F-4A0A-A11B-C84C449CCD83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{00AAC6B4-115F-43F6-AD67-42ECFE4CC770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{E7F85634-1736-4CE9-B1E5-65F33CB0CFBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{700F3CB1-4267-4596-9C50-95FF062E6FF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{F046D696-5551-40B5-A19C-13599AD0BFD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{B2C8468F-764F-4C2D-92DA-C51445231761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{5FADB4C9-76EF-47B6-8446-DA31FED357B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{80C85905-4957-4A40-BF99-B13BED213C57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{AB81E246-01B6-4E98-9354-1124C352681C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{7D53154F-962A-4ACE-9DDB-92EE726885FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{F6973DDC-700E-4E2C-8C63-40A4112AFFCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{90D175F5-41EF-4E15-980C-25B4604DFF56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{A786E19D-4D9E-497A-BF57-2D8E34E05BFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{7BEF8CF5-8F68-4819-91D1-1473A72954D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{1EF98211-69ED-4E15-A271-265B50E24007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{8D5AD876-4935-4240-8A1E-2A78B0EA399E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{0DC7EF9D-251F-4798-9B60-C08298F9D205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{F3EC727C-DD59-40EE-81B2-186964751AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{0C0B3D9E-4E86-4ECF-A43B-119C87AB2702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{F6EF1306-6774-46ED-AD67-B542DC6B6417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{21B89722-FDF2-4786-95CE-FC24B7989B65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{DD4C5F27-91FE-42D6-89CF-3F0DE57DEC21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{F25CFB18-819F-4F8A-BD29-76AE9AA75112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{2046E6DB-46D2-4F59-9E3F-A360BDD0E904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{B41AEC39-BC33-4770-9120-FFB90FF59480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{6CCE8075-7831-40B5-B717-AC417B8E4784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{3B725FFC-0908-4B22-93D4-5F8A2BEA61F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{DDE41AA8-11BF-4094-90B5-42EE0AD19400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{26471B6D-E8E0-4F6D-947D-A7A73E5463E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{D7F25E64-F5A0-4C78-ABA0-DAE3FD8AD69A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{C877BDA5-0C1C-4A1B-91BB-9DB88B835149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{148FC41D-8A62-44BE-9ED9-783DC6FD868B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{26C95E13-728E-4312-9536-B71F7DB23C95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{B268B38F-64EB-4D83-9CE2-05318A3F702C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{82DA7530-71C7-4A55-B559-2BE77C092458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{1B397932-5827-447C-9756-AA2F17C7B6F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{B071EAA1-1A68-48E1-92DE-8E65640BE39B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{4CB55B6B-A8C3-4769-8497-63E9E737F505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{0CB4267A-3A69-4A12-82A9-7850833F9625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{E950D982-9629-4C3A-9F23-357D70BBBC8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{09F5D18E-15CE-4BE6-8470-2945FF2A03DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{961266DD-4BA3-4D95-B0DD-A4B95E032A49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{19675D39-EE63-4FA2-9C87-911882A3E488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{3A436AD0-8CA6-4834-ABF6-B39270DDF808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{487F8AD6-621F-4D10-816F-DF54629574E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{1E7033E1-3FFC-4338-8EAD-E10048A86D00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{84552188-A96F-4692-933F-E1932E1A10A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{3639DF8E-E349-401E-AFF8-0A13DCD4C0E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{B1230964-674A-4B86-A4A2-2FD098D3A692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{62ED6AF8-B4E5-4BAB-BB3C-76CDDB6B53EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{B78EC158-1CB0-4A79-A593-E162A459FBD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{C2BDEB0C-98EE-42B7-90AB-F501838A29D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{FF1051DF-01C9-4FAA-B71E-A2A0F709FB8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{1449F3EF-9C90-440A-8D0B-21EC1F1F5967}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
