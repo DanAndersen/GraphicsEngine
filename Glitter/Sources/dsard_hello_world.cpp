@@ -57,8 +57,8 @@ namespace dsard {
 		GLuint vertexShader = compileShader(GL_VERTEX_SHADER, vsFilename);
 		GLuint fragmentShader = compileShader(GL_FRAGMENT_SHADER, fsFilename);
 
-		fprintf(stdout, "vertexShader: %d\n", vertexShader);
-		fprintf(stdout, "fragmentShader: %d\n", fragmentShader);
+		fprintf(stdout, "vertexShader: %u\n", vertexShader);
+		fprintf(stdout, "fragmentShader: %u\n", fragmentShader);
 
 		GLuint shaderProgram = glCreateProgram();
 		glAttachShader(shaderProgram, vertexShader);
@@ -146,7 +146,7 @@ namespace dsard {
 
 	void HelloWorld::draw() {
 		//fprintf(stdout, "HelloWorld::draw()\n");
-		/*
+		/* 
 		glUseProgram(mShaderProgram);
 
 		GLint posAttrib = glGetAttribLocation(mShaderProgram, "position");
